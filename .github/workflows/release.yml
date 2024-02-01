@@ -4,10 +4,8 @@
 name: Go Release Coin Cli
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  release:
+    types: [created]
 
 permissions:
   contents: write
