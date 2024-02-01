@@ -19,3 +19,33 @@
 
 # Go workspace file
 go.work
+
+fake_volume_config.yaml
+
+test/reportorder.db
+
+test/wa_database.db
+
+test/wa_device.json
+
+watch_coin_configuration.yaml
+
+test/xeggex_credential.yaml
+
+test/qr_data.jpg
+
+test/qr.jpg
+
+test/callback/wa_device.json
+
+test/callback/wa_database.db
+
+test/callback/qr_data.jpg
+
+qtyreport_13-1-2024.db
+
+qtyreport.db
+
+qr_data.jpg
+
+pdc_coin_manifest.yaml

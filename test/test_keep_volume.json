@@ -1,0 +1,1209 @@
+{
+    "marketid": "659c176095e8b13022962a32",
+    "symbol": "VISH/USDT",
+    "timestamp": 1706090106882,
+    "bids": [
+      {
+        "price": "0.00259",
+        "numberprice": 0.00259,
+        "quantity": "7170.2287",
+        "PairQuantity": 18.570892333
+      },
+      {
+        "price": "0.002581",
+        "numberprice": 0.002581,
+        "quantity": "688.9669",
+        "PairQuantity": 1.7782235689
+      },
+      {
+        "price": "0.002564",
+        "numberprice": 0.002564,
+        "quantity": "19500.0195",
+        "PairQuantity": 49.99804999799999
+      },
+      {
+        "price": "0.002558",
+        "numberprice": 0.002558,
+        "quantity": "1764.9705",
+        "PairQuantity": 4.5147945389999995
+      },
+      {
+        "price": "0.00255",
+        "numberprice": 0.00255,
+        "quantity": "489.2176",
+        "PairQuantity": 1.2475048800000001
+      },
+      {
+        "price": "0.002525",
+        "numberprice": 0.002525,
+        "quantity": "11881.1881",
+        "PairQuantity": 29.999999952499998
+      },
+      {
+        "price": "0.002524",
+        "numberprice": 0.002524,
+        "quantity": "1800.5493",
+        "PairQuantity": 4.5445864332
+      },
+      {
+        "price": "0.002507",
+        "numberprice": 0.002507,
+        "quantity": "1756.5926",
+        "PairQuantity": 4.4037776482
+      },
+      {
+        "price": "0.002503",
+        "numberprice": 0.002503,
+        "quantity": "3154.5379",
+        "PairQuantity": 7.8958083637
+      },
+      {
+        "price": "0.002501",
+        "numberprice": 0.002501,
+        "quantity": "16732.3426",
+        "PairQuantity": 41.847588842600004
+      },
+      {
+        "price": "0.0025",
+        "numberprice": 0.0025,
+        "quantity": "1652.7637",
+        "PairQuantity": 4.13190925
+      },
+      {
+        "price": "0.00249",
+        "numberprice": 0.00249,
+        "quantity": "8593.175",
+        "PairQuantity": 21.397005749999998
+      },
+      {
+        "price": "0.00248",
+        "numberprice": 0.00248,
+        "quantity": "388577.5622",
+        "PairQuantity": 963.672354256
+      },
+      {
+        "price": "0.002472",
+        "numberprice": 0.002472,
+        "quantity": "1857.3273",
+        "PairQuantity": 4.5913130855999995
+      },
+      {
+        "price": "0.002471",
+        "numberprice": 0.002471,
+        "quantity": "55424.3368",
+        "PairQuantity": 136.9535362328
+      },
+      {
+        "price": "0.00247",
+        "numberprice": 0.00247,
+        "quantity": "128760.4303",
+        "PairQuantity": 318.038262841
+      },
+      {
+        "price": "0.00246",
+        "numberprice": 0.00246,
+        "quantity": "61875.9089",
+        "PairQuantity": 152.214735894
+      },
+      {
+        "price": "0.002459",
+        "numberprice": 0.002459,
+        "quantity": "271033.7406",
+        "PairQuantity": 666.4719681354
+      },
+      {
+        "price": "0.002452",
+        "numberprice": 0.002452,
+        "quantity": "59334.7911",
+        "PairQuantity": 145.4889077772
+      },
+      {
+        "price": "0.00245",
+        "numberprice": 0.00245,
+        "quantity": "4613.7635",
+        "PairQuantity": 11.303720575
+      },
+      {
+        "price": "0.002440",
+        "numberprice": 0.00244,
+        "quantity": "969.8012",
+        "PairQuantity": 2.366314928
+      },
+      {
+        "price": "0.002439",
+        "numberprice": 0.002439,
+        "quantity": "1830.1406",
+        "PairQuantity": 4.4637129234
+      },
+      {
+        "price": "0.002429",
+        "numberprice": 0.002429,
+        "quantity": "3750.1276",
+        "PairQuantity": 9.1090599404
+      },
+      {
+        "price": "0.002422",
+        "numberprice": 0.002422,
+        "quantity": "1849.3324",
+        "PairQuantity": 4.4790830728
+      },
+      {
+        "price": "0.002417",
+        "numberprice": 0.002417,
+        "quantity": "1957.9518",
+        "PairQuantity": 4.7323695006
+      },
+      {
+        "price": "0.002415",
+        "numberprice": 0.002415,
+        "quantity": "8500",
+        "PairQuantity": 20.5275
+      },
+      {
+        "price": "0.002413",
+        "numberprice": 0.002413,
+        "quantity": "136.1927",
+        "PairQuantity": 0.32863298510000005
+      },
+      {
+        "price": "0.002410",
+        "numberprice": 0.00241,
+        "quantity": "161877.795",
+        "PairQuantity": 390.12548595
+      },
+      {
+        "price": "0.002405",
+        "numberprice": 0.002405,
+        "quantity": "1443.3344",
+        "PairQuantity": 3.4712192319999997
+      },
+      {
+        "price": "0.002402",
+        "numberprice": 0.002402,
+        "quantity": "842",
+        "PairQuantity": 2.022484
+      },
+      {
+        "price": "0.002400",
+        "numberprice": 0.0024,
+        "quantity": "63301.6743",
+        "PairQuantity": 151.92401832
+      },
+      {
+        "price": "0.002382",
+        "numberprice": 0.002382,
+        "quantity": "1895.8369",
+        "PairQuantity": 4.5158834958
+      },
+      {
+        "price": "0.002373",
+        "numberprice": 0.002373,
+        "quantity": "630.8495",
+        "PairQuantity": 1.4970058635
+      },
+      {
+        "price": "0.002365",
+        "numberprice": 0.002365,
+        "quantity": "1916.1949",
+        "PairQuantity": 4.5318009385
+      },
+      {
+        "price": "0.00235",
+        "numberprice": 0.00235,
+        "quantity": "851.063",
+        "PairQuantity": 1.99999805
+      },
+      {
+        "price": "0.002347",
+        "numberprice": 0.002347,
+        "quantity": "58.4503",
+        "PairQuantity": 0.1371828541
+      },
+      {
+        "price": "0.002316",
+        "numberprice": 0.002316,
+        "quantity": "1976.9599",
+        "PairQuantity": 4.5786391284
+      },
+      {
+        "price": "0.002312",
+        "numberprice": 0.002312,
+        "quantity": "53.7743",
+        "PairQuantity": 0.12432618159999999
+      },
+      {
+        "price": "0.002300",
+        "numberprice": 0.0023,
+        "quantity": "47204.7677",
+        "PairQuantity": 108.57096571
+      },
+      {
+        "price": "0.002296",
+        "numberprice": 0.002296,
+        "quantity": "2073.5458",
+        "PairQuantity": 4.760861156799999
+      },
+      {
+        "price": "0.002292",
+        "numberprice": 0.002292,
+        "quantity": "201601.0846",
+        "PairQuantity": 462.0696859032
+      },
+      {
+        "price": "0.002279",
+        "numberprice": 0.002279,
+        "quantity": "2096.6437",
+        "PairQuantity": 4.7782509923
+      },
+      {
+        "price": "0.002251",
+        "numberprice": 0.002251,
+        "quantity": "2433",
+        "PairQuantity": 5.4766829999999995
+      },
+      {
+        "price": "0.002246",
+        "numberprice": 0.002246,
+        "quantity": "70723.9308",
+        "PairQuantity": 158.84594857680003
+      },
+      {
+        "price": "0.002241",
+        "numberprice": 0.002241,
+        "quantity": "1336.016",
+        "PairQuantity": 2.994011856
+      },
+      {
+        "price": "0.002239",
+        "numberprice": 0.002239,
+        "quantity": "2152.7163",
+        "PairQuantity": 4.8199317957000005
+      },
+      {
+        "price": "0.002220",
+        "numberprice": 0.00222,
+        "quantity": "3616.1594",
+        "PairQuantity": 8.027873868
+      },
+      {
+        "price": "0.002211",
+        "numberprice": 0.002211,
+        "quantity": "50016.9345",
+        "PairQuantity": 110.5874421795
+      },
+      {
+        "price": "0.002210",
+        "numberprice": 0.00221,
+        "quantity": "880.4103",
+        "PairQuantity": 1.9457067630000002
+      },
+      {
+        "price": "0.002205",
+        "numberprice": 0.002205,
+        "quantity": "2202.3725",
+        "PairQuantity": 4.8562313625
+      },
+      {
+        "price": "0.002204",
+        "numberprice": 0.002204,
+        "quantity": "1000",
+        "PairQuantity": 2.2039999999999997
+      },
+      {
+        "price": "0.002200",
+        "numberprice": 0.0022,
+        "quantity": "33538.2897",
+        "PairQuantity": 73.78423734
+      },
+      {
+        "price": "0.002186",
+        "numberprice": 0.002186,
+        "quantity": "2230.9592",
+        "PairQuantity": 4.8768768112
+      },
+      {
+        "price": "0.002171",
+        "numberprice": 0.002171,
+        "quantity": "2176.9874",
+        "PairQuantity": 4.726239645400001
+      },
+      {
+        "price": "0.00217",
+        "numberprice": 0.00217,
+        "quantity": "252.0843",
+        "PairQuantity": 0.547022931
+      },
+      {
+        "price": "0.002160",
+        "numberprice": 0.00216,
+        "quantity": "2000",
+        "PairQuantity": 4.32
+      },
+      {
+        "price": "0.002157",
+        "numberprice": 0.002157,
+        "quantity": "1839.3652",
+        "PairQuantity": 3.9675107364
+      },
+      {
+        "price": "0.002151",
+        "numberprice": 0.002151,
+        "quantity": "2127.7252",
+        "PairQuantity": 4.5767369052
+      },
+      {
+        "price": "0.002150",
+        "numberprice": 0.00215,
+        "quantity": "79824.4629",
+        "PairQuantity": 171.622595235
+      },
+      {
+        "price": "0.002141",
+        "numberprice": 0.002141,
+        "quantity": "2222.606",
+        "PairQuantity": 4.758599446000001
+      },
+      {
+        "price": "0.002113",
+        "numberprice": 0.002113,
+        "quantity": "5025",
+        "PairQuantity": 10.617825
+      },
+      {
+        "price": "0.002100",
+        "numberprice": 0.0021,
+        "quantity": "13478.6508",
+        "PairQuantity": 28.305166679999996
+      },
+      {
+        "price": "0.002083",
+        "numberprice": 0.002083,
+        "quantity": "1544.3399",
+        "PairQuantity": 3.2168600117
+      },
+      {
+        "price": "0.002065",
+        "numberprice": 0.002065,
+        "quantity": "40247.5683",
+        "PairQuantity": 83.1112285395
+      },
+      {
+        "price": "0.002063",
+        "numberprice": 0.002063,
+        "quantity": "24816.9212",
+        "PairQuantity": 51.19730843560001
+      },
+      {
+        "price": "0.002062",
+        "numberprice": 0.002062,
+        "quantity": "601.66",
+        "PairQuantity": 1.2406229199999999
+      },
+      {
+        "price": "0.002060",
+        "numberprice": 0.00206,
+        "quantity": "126592.6307",
+        "PairQuantity": 260.780819242
+      },
+      {
+        "price": "0.002051",
+        "numberprice": 0.002051,
+        "quantity": "625000",
+        "PairQuantity": 1281.875
+      },
+      {
+        "price": "0.002040",
+        "numberprice": 0.00204,
+        "quantity": "813.0484",
+        "PairQuantity": 1.6586187360000002
+      },
+      {
+        "price": "0.002037",
+        "numberprice": 0.002037,
+        "quantity": "590.9535",
+        "PairQuantity": 1.2037722795
+      },
+      {
+        "price": "0.002036",
+        "numberprice": 0.002036,
+        "quantity": "121.8094",
+        "PairQuantity": 0.2480039384
+      },
+      {
+        "price": "0.002024",
+        "numberprice": 0.002024,
+        "quantity": "1243",
+        "PairQuantity": 2.515832
+      },
+      {
+        "price": "0.002022",
+        "numberprice": 0.002022,
+        "quantity": "50000",
+        "PairQuantity": 101.1
+      },
+      {
+        "price": "0.002020",
+        "numberprice": 0.00202,
+        "quantity": "5419.5329",
+        "PairQuantity": 10.947456458000001
+      },
+      {
+        "price": "0.002011",
+        "numberprice": 0.002011,
+        "quantity": "1963.2759",
+        "PairQuantity": 3.9481478349000008
+      },
+      {
+        "price": "0.002000",
+        "numberprice": 0.002,
+        "quantity": "93690.7141",
+        "PairQuantity": 187.3814282
+      },
+      {
+        "price": "0.001980",
+        "numberprice": 0.00198,
+        "quantity": "848.8453",
+        "PairQuantity": 1.6807136939999998
+      },
+      {
+        "price": "0.001975",
+        "numberprice": 0.001975,
+        "quantity": "131.2038",
+        "PairQuantity": 0.25912750500000004
+      },
+      {
+        "price": "0.001947",
+        "numberprice": 0.001947,
+        "quantity": "275",
+        "PairQuantity": 0.535425
+      },
+      {
+        "price": "0.001946",
+        "numberprice": 0.001946,
+        "quantity": "10424.8751",
+        "PairQuantity": 20.2868069446
+      },
+      {
+        "price": "0.001920",
+        "numberprice": 0.00192,
+        "quantity": "3000",
+        "PairQuantity": 5.76
+      },
+      {
+        "price": "0.001917",
+        "numberprice": 0.001917,
+        "quantity": "7542.8492",
+        "PairQuantity": 14.4596419164
+      },
+      {
+        "price": "0.001909",
+        "numberprice": 0.001909,
+        "quantity": "15164.9416",
+        "PairQuantity": 28.9498735144
+      },
+      {
+        "price": "0.001908",
+        "numberprice": 0.001908,
+        "quantity": "6867.4387",
+        "PairQuantity": 13.1030730396
+      },
+      {
+        "price": "0.001900",
+        "numberprice": 0.0019,
+        "quantity": "212800.6122",
+        "PairQuantity": 404.32116318
+      },
+      {
+        "price": "0.001883",
+        "numberprice": 0.001883,
+        "quantity": "16886.5543",
+        "PairQuantity": 31.797381746899998
+      },
+      {
+        "price": "0.001881",
+        "numberprice": 0.001881,
+        "quantity": "13500",
+        "PairQuantity": 25.3935
+      },
+      {
+        "price": "0.001880",
+        "numberprice": 0.00188,
+        "quantity": "1316.5451",
+        "PairQuantity": 2.475104788
+      },
+      {
+        "price": "0.001863",
+        "numberprice": 0.001863,
+        "quantity": "5137.8156",
+        "PairQuantity": 9.5717504628
+      },
+      {
+        "price": "0.001858",
+        "numberprice": 0.001858,
+        "quantity": "13890.8738",
+        "PairQuantity": 25.8092435204
+      },
+      {
+        "price": "0.001852",
+        "numberprice": 0.001852,
+        "quantity": "29435.1097",
+        "PairQuantity": 54.5138231644
+      },
+      {
+        "price": "0.001851",
+        "numberprice": 0.001851,
+        "quantity": "1500000",
+        "PairQuantity": 2776.5
+      },
+      {
+        "price": "0.001850",
+        "numberprice": 0.00185,
+        "quantity": "200000",
+        "PairQuantity": 370
+      },
+      {
+        "price": "0.001834",
+        "numberprice": 0.001834,
+        "quantity": "1856",
+        "PairQuantity": 3.403904
+      },
+      {
+        "price": "0.001829",
+        "numberprice": 0.001829,
+        "quantity": "79203.7146",
+        "PairQuantity": 144.8635940034
+      },
+      {
+        "price": "0.001825",
+        "numberprice": 0.001825,
+        "quantity": "471.9765",
+        "PairQuantity": 0.8613571125
+      },
+      {
+        "price": "0.001804",
+        "numberprice": 0.001804,
+        "quantity": "2852.3943",
+        "PairQuantity": 5.1457193172
+      },
+      {
+        "price": "0.001802",
+        "numberprice": 0.001802,
+        "quantity": "23147.6527",
+        "PairQuantity": 41.7120701654
+      },
+      {
+        "price": "0.001801",
+        "numberprice": 0.001801,
+        "quantity": "387897.1651",
+        "PairQuantity": 698.6027943451
+      },
+      {
+        "price": "0.001800",
+        "numberprice": 0.0018,
+        "quantity": "1255629.502",
+        "PairQuantity": 2260.1331036
+      }
+    ],
+    "asks": [
+      {
+        "price": "0.002601",
+        "numberprice": 0.002601,
+        "quantity": "4602.1705",
+        "PairQuantity": 11.9702454705
+      },
+      {
+        "price": "0.002609",
+        "numberprice": 0.002609,
+        "quantity": "629.7779",
+        "PairQuantity": 1.6430905411000003
+      },
+      {
+        "price": "0.002637",
+        "numberprice": 0.002637,
+        "quantity": "1655.1305",
+        "PairQuantity": 4.3645791285
+      },
+      {
+        "price": "0.00265",
+        "numberprice": 0.00265,
+        "quantity": "17655.1576",
+        "PairQuantity": 46.786167639999995
+      },
+      {
+        "price": "0.002672",
+        "numberprice": 0.002672,
+        "quantity": "1680.9704",
+        "PairQuantity": 4.491552908799999
+      },
+      {
+        "price": "0.002689",
+        "numberprice": 0.002689,
+        "quantity": "1607.1029",
+        "PairQuantity": 4.3214996981
+      },
+      {
+        "price": "0.0027",
+        "numberprice": 0.0027,
+        "quantity": "27192.1921",
+        "PairQuantity": 73.41891867000001
+      },
+      {
+        "price": "0.002723",
+        "numberprice": 0.002723,
+        "quantity": "1633.7155",
+        "PairQuantity": 4.4486073065000005
+      },
+      {
+        "price": "0.00273",
+        "numberprice": 0.00273,
+        "quantity": "2675.6146",
+        "PairQuantity": 7.3044278579999995
+      },
+      {
+        "price": "0.002742",
+        "numberprice": 0.002742,
+        "quantity": "2344.9015",
+        "PairQuantity": 6.4297199130000005
+      },
+      {
+        "price": "0.00275",
+        "numberprice": 0.00275,
+        "quantity": "22492.3568",
+        "PairQuantity": 61.8539812
+      },
+      {
+        "price": "0.002757",
+        "numberprice": 0.002757,
+        "quantity": "1603.4283",
+        "PairQuantity": 4.4206518231
+      },
+      {
+        "price": "0.002762",
+        "numberprice": 0.002762,
+        "quantity": "5580.914",
+        "PairQuantity": 15.414484468
+      },
+      {
+        "price": "0.002763",
+        "numberprice": 0.002763,
+        "quantity": "40500",
+        "PairQuantity": 111.9015
+      },
+      {
+        "price": "0.002764",
+        "numberprice": 0.002764,
+        "quantity": "46591.8308",
+        "PairQuantity": 128.7798203312
+      },
+      {
+        "price": "0.002775",
+        "numberprice": 0.002775,
+        "quantity": "1587.7706",
+        "PairQuantity": 4.406063415
+      },
+      {
+        "price": "0.0028",
+        "numberprice": 0.0028,
+        "quantity": "59880.7812",
+        "PairQuantity": 167.66618735999998
+      },
+      {
+        "price": "0.002809",
+        "numberprice": 0.002809,
+        "quantity": "1558.8813",
+        "PairQuantity": 4.3788975717
+      },
+      {
+        "price": "0.00283",
+        "numberprice": 0.00283,
+        "quantity": "134.0623",
+        "PairQuantity": 0.379396309
+      },
+      {
+        "price": "0.002832",
+        "numberprice": 0.002832,
+        "quantity": "1539.8315",
+        "PairQuantity": 4.360802808
+      },
+      {
+        "price": "0.002849",
+        "numberprice": 0.002849,
+        "quantity": "25000",
+        "PairQuantity": 71.225
+      },
+      {
+        "price": "0.00285",
+        "numberprice": 0.00285,
+        "quantity": "226",
+        "PairQuantity": 0.6441
+      },
+      {
+        "price": "0.002857",
+        "numberprice": 0.002857,
+        "quantity": "1652.7666",
+        "PairQuantity": 4.7219541762
+      },
+      {
+        "price": "0.002866",
+        "numberprice": 0.002866,
+        "quantity": "2153.5752",
+        "PairQuantity": 6.1721465232
+      },
+      {
+        "price": "0.002877",
+        "numberprice": 0.002877,
+        "quantity": "1043.2011",
+        "PairQuantity": 3.0012895647
+      },
+      {
+        "price": "0.00288",
+        "numberprice": 0.00288,
+        "quantity": "662",
+        "PairQuantity": 1.90656
+      },
+      {
+        "price": "0.002889",
+        "numberprice": 0.002889,
+        "quantity": "1494.2571",
+        "PairQuantity": 4.316908761900001
+      },
+      {
+        "price": "0.00289",
+        "numberprice": 0.00289,
+        "quantity": "25102.8431",
+        "PairQuantity": 72.547216559
+      },
+      {
+        "price": "0.002899",
+        "numberprice": 0.002899,
+        "quantity": "46784.8641",
+        "PairQuantity": 135.6293210259
+      },
+      {
+        "price": "0.0029",
+        "numberprice": 0.0029,
+        "quantity": "29083.919",
+        "PairQuantity": 84.3433651
+      },
+      {
+        "price": "0.002912",
+        "numberprice": 0.002912,
+        "quantity": "3165.4375",
+        "PairQuantity": 9.217754000000001
+      },
+      {
+        "price": "0.002924",
+        "numberprice": 0.002924,
+        "quantity": "1416.4092",
+        "PairQuantity": 4.1415805008
+      },
+      {
+        "price": "0.002933",
+        "numberprice": 0.002933,
+        "quantity": "815.2458",
+        "PairQuantity": 2.3911159314
+      },
+      {
+        "price": "0.002939",
+        "numberprice": 0.002939,
+        "quantity": "1405.5275",
+        "PairQuantity": 4.1308453225
+      },
+      {
+        "price": "0.002957",
+        "numberprice": 0.002957,
+        "quantity": "6100",
+        "PairQuantity": 18.0377
+      },
+      {
+        "price": "0.002974",
+        "numberprice": 0.002974,
+        "quantity": "1380.6717",
+        "PairQuantity": 4.1061176358
+      },
+      {
+        "price": "0.002986",
+        "numberprice": 0.002986,
+        "quantity": "27732.9999",
+        "PairQuantity": 82.8107377014
+      },
+      {
+        "price": "0.002988",
+        "numberprice": 0.002988,
+        "quantity": "10000",
+        "PairQuantity": 29.880000000000003
+      },
+      {
+        "price": "0.002992",
+        "numberprice": 0.002992,
+        "quantity": "15.475",
+        "PairQuantity": 0.046301199999999994
+      },
+      {
+        "price": "0.002999",
+        "numberprice": 0.002999,
+        "quantity": "230",
+        "PairQuantity": 0.68977
+      },
+      {
+        "price": "0.003",
+        "numberprice": 0.003,
+        "quantity": "40914.8953",
+        "PairQuantity": 122.7446859
+      },
+      {
+        "price": "0.003009",
+        "numberprice": 0.003009,
+        "quantity": "1405.3412",
+        "PairQuantity": 4.2286716708
+      },
+      {
+        "price": "0.00301",
+        "numberprice": 0.00301,
+        "quantity": "250",
+        "PairQuantity": 0.7525000000000001
+      },
+      {
+        "price": "0.003038",
+        "numberprice": 0.003038,
+        "quantity": "1385.1703",
+        "PairQuantity": 4.2081473714
+      },
+      {
+        "price": "0.003044",
+        "numberprice": 0.003044,
+        "quantity": "313.8511",
+        "PairQuantity": 0.9553627483999999
+      },
+      {
+        "price": "0.00305",
+        "numberprice": 0.00305,
+        "quantity": "31.736",
+        "PairQuantity": 0.09679480000000001
+      },
+      {
+        "price": "0.003053",
+        "numberprice": 0.003053,
+        "quantity": "1374.9257",
+        "PairQuantity": 4.1976481621
+      },
+      {
+        "price": "0.003075",
+        "numberprice": 0.003075,
+        "quantity": "126.3434",
+        "PairQuantity": 0.388505955
+      },
+      {
+        "price": "0.00309",
+        "numberprice": 0.00309,
+        "quantity": "1441.2254",
+        "PairQuantity": 4.453386486
+      },
+      {
+        "price": "0.0031",
+        "numberprice": 0.0031,
+        "quantity": "14721.4872",
+        "PairQuantity": 45.636610319999996
+      },
+      {
+        "price": "0.00311",
+        "numberprice": 0.00311,
+        "quantity": "1101.5605",
+        "PairQuantity": 3.425853155
+      },
+      {
+        "price": "0.003111",
+        "numberprice": 0.003111,
+        "quantity": "1326.6025",
+        "PairQuantity": 4.1270603775
+      },
+      {
+        "price": "0.00312",
+        "numberprice": 0.00312,
+        "quantity": "615.92",
+        "PairQuantity": 1.9216703999999998
+      },
+      {
+        "price": "0.00313",
+        "numberprice": 0.00313,
+        "quantity": "1500",
+        "PairQuantity": 4.695
+      },
+      {
+        "price": "0.00314",
+        "numberprice": 0.00314,
+        "quantity": "6446.6375",
+        "PairQuantity": 20.24244175
+      },
+      {
+        "price": "0.00315",
+        "numberprice": 0.00315,
+        "quantity": "52215.0127",
+        "PairQuantity": 164.477290005
+      },
+      {
+        "price": "0.003151",
+        "numberprice": 0.003151,
+        "quantity": "821.695",
+        "PairQuantity": 2.589160945
+      },
+      {
+        "price": "0.003173",
+        "numberprice": 0.003173,
+        "quantity": "107.7444",
+        "PairQuantity": 0.3418729812
+      },
+      {
+        "price": "0.003175",
+        "numberprice": 0.003175,
+        "quantity": "2401.1639",
+        "PairQuantity": 7.623695382499999
+      },
+      {
+        "price": "0.003188",
+        "numberprice": 0.003188,
+        "quantity": "20100.9917",
+        "PairQuantity": 64.08196153959999
+      },
+      {
+        "price": "0.003192",
+        "numberprice": 0.003192,
+        "quantity": "100",
+        "PairQuantity": 0.3192
+      },
+      {
+        "price": "0.0032",
+        "numberprice": 0.0032,
+        "quantity": "11748.5233",
+        "PairQuantity": 37.59527456000001
+      },
+      {
+        "price": "0.003201",
+        "numberprice": 0.003201,
+        "quantity": "2270",
+        "PairQuantity": 7.26627
+      },
+      {
+        "price": "0.003227",
+        "numberprice": 0.003227,
+        "quantity": "1000",
+        "PairQuantity": 3.227
+      },
+      {
+        "price": "0.003248",
+        "numberprice": 0.003248,
+        "quantity": "1970.4494",
+        "PairQuantity": 6.4000196512
+      },
+      {
+        "price": "0.003269",
+        "numberprice": 0.003269,
+        "quantity": "857.1441",
+        "PairQuantity": 2.8020040629
+      },
+      {
+        "price": "0.00327",
+        "numberprice": 0.00327,
+        "quantity": "205.8175",
+        "PairQuantity": 0.673023225
+      },
+      {
+        "price": "0.003273",
+        "numberprice": 0.003273,
+        "quantity": "516.9208",
+        "PairQuantity": 1.6918817784
+      },
+      {
+        "price": "0.003276",
+        "numberprice": 0.003276,
+        "quantity": "4674.4317",
+        "PairQuantity": 15.313438249199999
+      },
+      {
+        "price": "0.00328",
+        "numberprice": 0.00328,
+        "quantity": "1227.6223",
+        "PairQuantity": 4.026601144
+      },
+      {
+        "price": "0.0033",
+        "numberprice": 0.0033,
+        "quantity": "41010.2713",
+        "PairQuantity": 135.33389529
+      },
+      {
+        "price": "0.00333",
+        "numberprice": 0.00333,
+        "quantity": "6446.6375",
+        "PairQuantity": 21.467302875
+      },
+      {
+        "price": "0.003333",
+        "numberprice": 0.003333,
+        "quantity": "10000",
+        "PairQuantity": 33.33
+      },
+      {
+        "price": "0.00336",
+        "numberprice": 0.00336,
+        "quantity": "46303.719",
+        "PairQuantity": 155.58049584
+      },
+      {
+        "price": "0.003366",
+        "numberprice": 0.003366,
+        "quantity": "327.8856",
+        "PairQuantity": 1.1036629296
+      },
+      {
+        "price": "0.003373",
+        "numberprice": 0.003373,
+        "quantity": "142.3489",
+        "PairQuantity": 0.4801428397
+      },
+      {
+        "price": "0.003375",
+        "numberprice": 0.003375,
+        "quantity": "4466.8263",
+        "PairQuantity": 15.075538762499999
+      },
+      {
+        "price": "0.00338",
+        "numberprice": 0.00338,
+        "quantity": "59331.8254",
+        "PairQuantity": 200.541569852
+      },
+      {
+        "price": "0.003388",
+        "numberprice": 0.003388,
+        "quantity": "335.1058",
+        "PairQuantity": 1.1353384504
+      },
+      {
+        "price": "0.003399",
+        "numberprice": 0.003399,
+        "quantity": "2811.2999",
+        "PairQuantity": 9.5556083601
+      },
+      {
+        "price": "0.0034",
+        "numberprice": 0.0034,
+        "quantity": "63118.6865",
+        "PairQuantity": 214.6035341
+      },
+      {
+        "price": "0.003412",
+        "numberprice": 0.003412,
+        "quantity": "462.9385",
+        "PairQuantity": 1.579546162
+      },
+      {
+        "price": "0.003433",
+        "numberprice": 0.003433,
+        "quantity": "2000",
+        "PairQuantity": 6.866
+      },
+      {
+        "price": "0.00345",
+        "numberprice": 0.00345,
+        "quantity": "789.5324",
+        "PairQuantity": 2.72388678
+      },
+      {
+        "price": "0.003475",
+        "numberprice": 0.003475,
+        "quantity": "100",
+        "PairQuantity": 0.3475
+      },
+      {
+        "price": "0.003477",
+        "numberprice": 0.003477,
+        "quantity": "1477.1057",
+        "PairQuantity": 5.1358965189
+      },
+      {
+        "price": "0.00348",
+        "numberprice": 0.00348,
+        "quantity": "1143.2905",
+        "PairQuantity": 3.97865094
+      },
+      {
+        "price": "0.003485",
+        "numberprice": 0.003485,
+        "quantity": "5750",
+        "PairQuantity": 20.03875
+      },
+      {
+        "price": "0.003488",
+        "numberprice": 0.003488,
+        "quantity": "50000",
+        "PairQuantity": 174.4
+      },
+      {
+        "price": "0.00349",
+        "numberprice": 0.00349,
+        "quantity": "1200",
+        "PairQuantity": 4.188
+      },
+      {
+        "price": "0.003495",
+        "numberprice": 0.003495,
+        "quantity": "1280.1218",
+        "PairQuantity": 4.474025691
+      },
+      {
+        "price": "0.003498",
+        "numberprice": 0.003498,
+        "quantity": "85922.3281",
+        "PairQuantity": 300.5563036938
+      },
+      {
+        "price": "0.003499",
+        "numberprice": 0.003499,
+        "quantity": "849.0461",
+        "PairQuantity": 2.9708123039
+      },
+      {
+        "price": "0.003500",
+        "numberprice": 0.0035,
+        "quantity": "172034.6363",
+        "PairQuantity": 602.12122705
+      },
+      {
+        "price": "0.003502",
+        "numberprice": 0.003502,
+        "quantity": "373",
+        "PairQuantity": 1.306246
+      },
+      {
+        "price": "0.003512",
+        "numberprice": 0.003512,
+        "quantity": "342.6968",
+        "PairQuantity": 1.2035511615999999
+      },
+      {
+        "price": "0.00352",
+        "numberprice": 0.00352,
+        "quantity": "7135",
+        "PairQuantity": 25.1152
+      },
+      {
+        "price": "0.003532",
+        "numberprice": 0.003532,
+        "quantity": "103.0476",
+        "PairQuantity": 0.3639641232
+      },
+      {
+        "price": "0.003574",
+        "numberprice": 0.003574,
+        "quantity": "45102.9738",
+        "PairQuantity": 161.1980283612
+      },
+      {
+        "price": "0.003594",
+        "numberprice": 0.003594,
+        "quantity": "500",
+        "PairQuantity": 1.797
+      }
+    ]
+  }

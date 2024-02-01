@@ -1,0 +1,11 @@
+daemon_path: D:/testvish/vishaid.exe
+dir_path: D:/walletvish
+cli:
+    host: http://localhost:14277
+    username: virtuoso
+    password: virtuoso
+distribute:
+    unspent_threeshold: 2000
+    send_percent: 0.8
+    send_sleep: 10
+wallet_count: 6000
