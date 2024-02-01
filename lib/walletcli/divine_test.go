@@ -3,7 +3,7 @@ package walletcli_test
 import (
 	"testing"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/walletcli"
+	"github.com/Vaziria/coin_cli/lib/walletcli"
 	"github.com/stretchr/testify/assert"
 )
 

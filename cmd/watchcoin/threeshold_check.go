@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 	"github.com/dustin/go-humanize"
 )
 

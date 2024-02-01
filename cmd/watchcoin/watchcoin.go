@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v3"
 )

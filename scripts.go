@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
 	"github.com/urfave/cli/v2"
 )
 

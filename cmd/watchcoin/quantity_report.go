@@ -3,7 +3,7 @@ package watchcoin
 import (
 	"encoding/json"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

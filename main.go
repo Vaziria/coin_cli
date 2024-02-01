@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/cmd/watchcoin"
+	"github.com/Vaziria/coin_cli/cmd/watchcoin"
 	"github.com/fatih/color"
 	"github.com/urfave/cli/v2"
 )

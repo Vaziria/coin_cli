@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 	"github.com/stretchr/testify/assert"
 )
 

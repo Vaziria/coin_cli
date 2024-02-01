@@ -1,6 +1,6 @@
 package watchcoin
 
-import "github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+import "github.com/Vaziria/coin_cli/lib/xeggexlib"
 
 func FindBestPriceV2(res *xeggexlib.OrderBookRes) (*BestPrice, error) {
 	highbid := res.Bids[0]

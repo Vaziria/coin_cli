@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 )
 
 var ErrClientExist error = errors.New("client exist")

@@ -1,4 +1,4 @@
-module github.com/Vaziria/bitcoin_development_env/coin_cli
+module github.com/Vaziria/coin_cli
 
 go 1.19
 

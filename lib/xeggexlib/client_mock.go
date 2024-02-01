@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 )

@@ -3,8 +3,8 @@ package wamanager_test
 import (
 	"testing"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/wamanager"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/wamanager"
 	"github.com/stretchr/testify/assert"
 )
 

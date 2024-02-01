@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/xeggexlib"
+	"github.com/Vaziria/coin_cli/lib/xeggexlib"
 	"github.com/dustin/go-humanize"
 	"github.com/pdcgo/common_conf/pdc_common"
 )

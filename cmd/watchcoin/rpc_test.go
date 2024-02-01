@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/cmd/watchcoin"
+	"github.com/Vaziria/coin_cli/cmd/watchcoin"
 )
 
 type MockRpcOut struct {

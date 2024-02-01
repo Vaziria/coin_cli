@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/commonlib"
-	"github.com/Vaziria/bitcoin_development_env/coin_cli/lib/wamanager"
+	"github.com/Vaziria/coin_cli/lib/commonlib"
+	"github.com/Vaziria/coin_cli/lib/wamanager"
 	"go.mau.fi/whatsmeow/binary/proto"
 	"go.mau.fi/whatsmeow/types"
 	"go.mau.fi/whatsmeow/types/events"
