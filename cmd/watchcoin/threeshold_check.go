@@ -10,6 +10,7 @@ import (
 )
 
 type SumBooks struct {
+	PairName        [2]string
 	Quantity        float64
 	PairSumQuantity float64
 	FirstPrice      float64
@@ -20,12 +21,13 @@ type SumBooks struct {
 func (data *SumBooks) WaMessage() (string, error) {
 	// log.Println(data.LastBook.Price)
 
-	message := `Quantity : *%s* Vish @%f
+	message := `Quantity : *%s* %s @%f
 Nominal : *%s* Usdt
 Impact : *-%.2f%%* at %f`
 
 	hasil := fmt.Sprintf(
 		message,
+		data.PairName[0],
 		humanize.Comma(int64(data.Quantity)),
 		data.FirstPrice,
 		humanize.Comma(int64(data.PairSumQuantity)),
@@ -45,14 +47,14 @@ type ThreesholdResult struct {
 func GetThreeshold(databook xeggexlib.OrderBookRes, handlers map[string]func(sumdata *SumBooks, totalbook *SumBooks) (bool, error)) (*ThreesholdResult, map[string]bool, error) {
 
 	sumBook := SumBooks{
-
+		PairName:        databook.SymbolArr(),
 		PairSumQuantity: 0,
 		FirstPrice:      0,
 		Percent:         0,
 	}
 
 	totalBook := SumBooks{
-
+		PairName:        databook.SymbolArr(),
 		PairSumQuantity: 0,
 		FirstPrice:      0,
 		Percent:         0,

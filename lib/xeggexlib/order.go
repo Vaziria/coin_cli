@@ -16,6 +16,12 @@ type OrderBookRes struct {
 	Asks      []Asks `json:"asks"`
 }
 
+func (bookres *OrderBookRes) SymbolArr() [2]string {
+	sym := strings.Split(bookres.Symbol, "/")
+
+	return [2]string{sym[0], sym[1]}
+}
+
 type Bids struct {
 	Price        string  `json:"price"`
 	Numberprice  float64 `json:"numberprice"`
