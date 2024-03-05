@@ -32,7 +32,6 @@ func TestCli(t *testing.T) {
 	// })
 
 	t.Run("testing getting list address", func(t *testing.T) {
-		t.Skip("skip")
 
 		hasil, err := cli.GetAddresses()
 		// t.Log(hasil)

@@ -140,7 +140,7 @@ func (dis *AddrList) Get(index int) (*AddrItem, error) {
 	if addr == nil {
 		dis.Lock()
 		defer dis.Unlock()
-		newaddr, err := dis.cli.NewAddress()
+		newaddr, err := dis.cli.NewAddress("")
 		if err != nil {
 			return addr, err
 		}

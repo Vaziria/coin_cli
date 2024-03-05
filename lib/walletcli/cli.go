@@ -22,6 +22,7 @@ type WalletCli struct {
 	Username string      `yaml:"username"`
 	Password string      `yaml:"password"`
 	Client   http.Client `yaml:"-"`
+	Debug    bool        `yaml:"debug"`
 }
 
 func RunServiceDaemon(daemonName string, datadir string) (func() error, error) {
@@ -128,10 +129,14 @@ func (cli *WalletCli) SendReq(hasil ErrRes, method string, params ...any) error 
 	if err != nil {
 		return err
 	}
-	data, _ := io.ReadAll(res.Body)
-	log.Println(string(data))
-	err = json.Unmarshal(data, hasil)
-	// err = json.NewDecoder(res.Body).Decode(hasil)
+
+	if cli.Debug {
+		data, _ := io.ReadAll(res.Body)
+		log.Println(string(data))
+		err = json.Unmarshal(data, hasil)
+	} else {
+		err = json.NewDecoder(res.Body).Decode(hasil)
+	}
 
 	if err != nil {
 		return err
@@ -168,18 +173,6 @@ type GetAddressesRes struct {
 func (cli *WalletCli) GetAddresses() ([]*Address, error) {
 	res := GetAddressesRes{}
 	err := cli.SendReq(&res, "listreceivedbyaddress", 0, true)
-
-	return res.Result, err
-}
-
-type NewAddress struct {
-	RpcRes
-	Result string `json:"result"`
-}
-
-func (cli *WalletCli) NewAddress() (string, error) {
-	res := NewAddress{}
-	err := cli.SendReq(&res, "getnewaddress")
 
 	return res.Result, err
 }
@@ -290,6 +283,7 @@ func (cli *WalletCli) GetBlockchainInfo() (BlockChainInfo, error) {
 func (cli *WalletCli) WaitFullSync(timeout time.Duration) error {
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
+	time.Sleep(time.Second * 2)
 Parent:
 	for {
 		select {
@@ -314,7 +308,7 @@ Parent:
 					time.Sleep(time.Second * 2)
 					continue Parent
 				default:
-					log.Println(err)
+					log.Println("sync error", err)
 					return err
 				}
 

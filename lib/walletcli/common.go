@@ -27,7 +27,7 @@ func (dis *DistributeToWallets) InitiateAddress() ([]*Address, error) {
 
 	if addrCount < dis.WalletCount {
 		for c := addrCount; c < dis.WalletCount; c++ {
-			addr, err := dis.Cli.NewAddress()
+			addr, err := dis.Cli.NewAddress("")
 			if err != nil {
 				return addresses, err
 			}
