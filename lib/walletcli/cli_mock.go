@@ -11,13 +11,13 @@ var serviceRunning sync.Once
 func RunMockDaemonService(t *testing.T) *WalletCli {
 	serviceRunning.Do(func() {
 
-		RunServiceDaemon("D:/testvish/vishaid.exe", "D:/testvish")
+		RunServiceDaemon("D:/crypto/new_deployer/workspace/dist/bin/dashd.exe", "D:/sampah/dash")
 
 		// assert.Nil(t, err)
 	})
 
 	cli := WalletCli{
-		Host:     "http://localhost:14277",
+		Host:     "http://localhost:14277/wallet/dev",
 		Username: "virtuoso",
 		Password: "virtuoso",
 	}

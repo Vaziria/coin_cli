@@ -61,10 +61,11 @@ func RunServiceDaemon(daemonName string, datadir string) (func() error, error) {
 }
 
 type RpcPayload struct {
-	Jsonrpc string `json:"jsonrpc"`
-	ID      string `json:"id"`
-	Method  string `json:"method"`
-	Params  []any  `json:"params"`
+	Jsonrpc    string `json:"jsonrpc"`
+	ID         string `json:"id"`
+	Method     string `json:"method"`
+	Params     []any  `json:"params"`
+	Walletname string `json:"walletname"`
 }
 
 type RpcError struct {
@@ -239,17 +240,17 @@ func (cli *WalletCli) GetUnspent() ([]*Unspent, error) {
 }
 
 type BlockChainInfo struct {
-	Chain                string          `json:"chain"`
-	Blocks               int             `json:"blocks"`
-	Headers              int             `json:"headers"`
-	Bestblockhash        string          `json:"bestblockhash"`
-	Difficulty           float64         `json:"difficulty"`
-	Mediantime           int             `json:"mediantime"`
-	Verificationprogress float64         `json:"verificationprogress"`
-	Chainwork            string          `json:"chainwork"`
-	Pruned               bool            `json:"pruned"`
-	Softforks            []Softforks     `json:"softforks"`
-	Bip9Softforks        []Bip9Softforks `json:"bip9_softforks"`
+	Chain                string  `json:"chain"`
+	Blocks               int     `json:"blocks"`
+	Headers              int     `json:"headers"`
+	Bestblockhash        string  `json:"bestblockhash"`
+	Difficulty           float64 `json:"difficulty"`
+	Mediantime           int     `json:"mediantime"`
+	Verificationprogress float64 `json:"verificationprogress"`
+	Chainwork            string  `json:"chainwork"`
+	Pruned               bool    `json:"pruned"`
+	// Softforks            []Softforks     `json:"softforks"`
+	// Bip9Softforks        []Bip9Softforks `json:"bip9_softforks"`
 }
 type Enforce struct {
 	Status   bool `json:"status"`
