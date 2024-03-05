@@ -15,6 +15,16 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+type MinMaxFloat struct {
+	Min float64
+	Max float64
+}
+
+func (ra *MinMaxFloat) Get() float64 {
+	n := ra.Min + rand.Float64()*(ra.Max-ra.Min)
+	return n
+}
+
 type MinMax struct {
 	Min int
 	Max int
@@ -33,7 +43,7 @@ type FakeMineConfig struct {
 	DirPath          string
 	PaymentTime      int
 	SetMining        bool
-	MinPayout        float64
+	MinPayout        *MinMaxFloat
 }
 
 type FakeMineTransaction struct {
@@ -60,17 +70,18 @@ func (fake *FakeMineTransaction) SendToAddresses() error {
 
 	totalBalance = 0.9 * totalBalance
 	perbalance := totalBalance / float64(countaddr)
-	if perbalance < fake.Config.MinPayout {
+	if perbalance < fake.Config.MinPayout.Max {
 		log.Println("min payout tidak cukup, count addr=", countaddr, " per balance=", perbalance, " total balance=", totalBalance)
 		return nil
 	}
-	log.Println("sending transaction, count addr=", countaddr, " per balance=", perbalance, " total balance=", totalBalance)
+	log.Println("sending transaction, count addr=", countaddr, " per balance approx=", perbalance, " total balance=", totalBalance)
 
 	payload := walletcli.SendManyPayload{}
 
 	for _, item := range fake.Addresses {
 		addr := item
-		payload[addr] = float32(perbalance)
+		rbalance := fake.Config.MinPayout.Get()
+		payload[addr] = float32(rbalance)
 	}
 
 	res, err := fake.MiningPoolCli.SendMany(payload)
@@ -160,7 +171,6 @@ Parent:
 }
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
 	app := &cli.App{
 		Name:     "command line fake scenario",
 		Usage:    "fake scenario untuk premine",
@@ -186,7 +196,10 @@ func main() {
 				DirPath:          "D:/testunifyroom/datacoin",
 				PaymentTime:      3600,
 				SetMining:        false,
-				MinPayout:        20,
+				MinPayout: &MinMaxFloat{
+					Max: 20,
+					Min: 10,
+				},
 			}
 
 			confile := dirctx.Path(ctx.String("file"))
