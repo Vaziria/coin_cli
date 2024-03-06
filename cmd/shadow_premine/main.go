@@ -78,10 +78,13 @@ func (fake *FakeMineTransaction) SendToAddresses() error {
 
 	payload := walletcli.SendManyPayload{}
 
+	totalsend := float32(0)
 	for _, item := range fake.Addresses {
 		addr := item
 		rbalance := fake.Config.MinPayout.Get()
-		payload[addr] = float32(rbalance)
+		bal := float32(rbalance)
+		payload[addr] = bal
+		totalsend += bal
 	}
 
 	res, err := fake.MiningPoolCli.SendMany(payload)
@@ -89,7 +92,7 @@ func (fake *FakeMineTransaction) SendToAddresses() error {
 		return err
 	}
 
-	log.Println("send to many", res)
+	log.Println("send to many", res, "amount", totalsend)
 
 	return nil
 }
