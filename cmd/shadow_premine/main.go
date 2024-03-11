@@ -175,9 +175,11 @@ Parent:
 
 func main() {
 	app := &cli.App{
-		Name:     "command line fake scenario",
-		Usage:    "fake scenario untuk premine",
-		Commands: []*cli.Command{},
+		Name:  "command line fake scenario",
+		Usage: "fake scenario untuk premine",
+		Commands: []*cli.Command{
+			SplitMoney(),
+		},
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:    "file",
