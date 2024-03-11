@@ -15,6 +15,7 @@ import (
 type MakeSmallConfig struct {
 	WalletName string
 	Threeshold float32
+	SleepTime  int
 	Round      int
 	Amount     float32
 	Addcount   int
@@ -40,7 +41,7 @@ func (fake *MakeSmall) Run() error {
 			return err
 		}
 		c += 1
-		time.Sleep(time.Minute)
+		time.Sleep(time.Second * time.Duration(fake.Config.SleepTime))
 	}
 
 	return nil
@@ -134,6 +135,7 @@ func SplitMoney() *cli.Command {
 
 			config := MakeSmallConfig{
 				WalletName: "jj",
+				SleepTime:  120,
 				Threeshold: 5,
 				Round:      2,
 				Amount:     5,
