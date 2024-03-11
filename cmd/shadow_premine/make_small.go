@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"log"
+	"math/rand"
 	"os"
 	"time"
 
@@ -12,11 +13,21 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+type MinMax32 struct {
+	Min float32
+	Max float32
+}
+
+func (ra *MinMax32) Get() float32 {
+	n := ra.Min + rand.Float32()*(ra.Max-ra.Min)
+	return n
+}
+
 type MakeSmallConfig struct {
 	WalletName string
-	Threeshold float32
 	SleepTime  int
 	Round      int
+	AmountItem *MinMax32
 	Amount     float32
 	Addcount   int
 	IsNewAddr  bool
@@ -52,19 +63,24 @@ func (fake *MakeSmall) SendToMany(amount float32, addrcount int) error {
 
 	amountSend := amount / float32(addrcount)
 
-	if amountSend < fake.Config.Threeshold {
-		log.Println("too small amount send", amountSend)
-		return nil
-	}
-
 	addresses, err := fake.GetAddress(addrcount)
 
 	if err != nil {
 		return err
 	}
 
+	amo := float32(0)
+
 	for _, addr := range addresses {
+
+		if amo >= amount {
+			break
+		}
+
 		sendaddr := addr
+		amountSend := fake.Config.AmountItem.Get()
+		amo += amountSend
+
 		payload[sendaddr] = amountSend
 	}
 
@@ -136,10 +152,13 @@ func SplitMoney() *cli.Command {
 			config := MakeSmallConfig{
 				WalletName: "jj",
 				SleepTime:  120,
-				Threeshold: 5,
 				Round:      2,
-				Amount:     5,
-				Addcount:   10,
+				Amount:     15,
+				AmountItem: &MinMax32{
+					Min: 1,
+					Max: 2,
+				},
+				Addcount:   3,
 				IsNewAddr:  false,
 				AddrLabel:  "split",
 				DaemonPath: "D:/testunifyroom/unfyd.exe",
